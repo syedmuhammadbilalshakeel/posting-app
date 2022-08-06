@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+    /* background-image: url("https://viconsortium.com/editor_new/source/giphy-downsized-large.gif"); */
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: gray;
+}
+
+.section1 {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 120px;
+    left: 450px;
+}
+
+.section1 h3 {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+hr {
+    position: relative;
+    right: 12px;
+    width: 400px;
+}
+
+textarea {
+    border: none;
+}
+
+#icon1 {
+    position: relative;
+    top: -150px;
+    left: 100px;
+    color: burlywood;
+    font-size: 20px;
+}
+
+input {
+    border: none;
+}
+
+#icon2 {
+    font-size: 20px;
+    color: red;
+}
+
+#icon3 {
+    font-size: 20px;
+    color: orange;
+}
+
+#icon4 {
+    font-size: 20px;
+    color: blue;
+}
+
+#icon5 {
+    font-size: 20px;
+    color: yellow;
+}
+
+#icon6 {
+    font-size: 20px;
+    color: green;
+}
+
+#icon7 {
+    font-size: 20px;
+    color: darkmagenta;
+}
+
+#icon8 {
+    font-size: 20px;
+    color: black;
+}
+
+#icon9 {
+    font-size: 20px;
+    color: rgb(88, 11, 165);
+}
+
+.icon10 {
+    position: relative;
+    top: 20px;
+}
+
+button {
+    position: relative;
+    top: 50px;
+    width: 370px;
+    border-radius: 10px;
+}
+
+
+/* section2 */
+.section-2 {
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 150px;
+    left: 450px;
+    display: none;
+}
+
+.attt {
+    position: relative;
+    top: -20px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.icon11 {
+    position: relative;
+    top: 190px;
+    left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#icon12 {
+    font-size: 22px;
+    color: gray;
+}
+
+#icon13 {
+    font-size: 22px;
+    color: gray;
+}
+
+#icon14 {
+    font-size: 22px;
+    color: gray;
+}
+
+#para4 {
+    position: relative;
+    left: 20px;
+}
+
+#para5 {
+    position: relative;
+    left: 40px;
+}
+
+.comment1 {
+    width: 250px;
+    height: 30px;
+    position: relative;
+    top: 200px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .section1 {
+        position: relative;
+        top: 120px;
+        left: 0px;
+    }
+
+    .section-2 {
+        position: relative;
+        top: 150px;
+        left: 20px;
+    }
+
+}
